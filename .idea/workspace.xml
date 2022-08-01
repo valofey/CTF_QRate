@@ -1,10 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="c12db3a9-44b2-4dd4-acd1-91567e1976b6" name="Changes" comment="Little changes here and there.">
+    <list default="true" id="c12db3a9-44b2-4dd4-acd1-91567e1976b6" name="Changes" comment="Added beginnings of frequency analysis.">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/CTF_QRate.ipynb" beforeDir="false" afterPath="$PROJECT_DIR$/CTF_QRate.ipynb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/quantum_chance_eng.txt" beforeDir="false" afterPath="$PROJECT_DIR$/quantum_chance_eng.txt" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -83,7 +82,9 @@
       <workItem from="1658949725790" duration="2768000" />
       <workItem from="1658956774507" duration="1637000" />
       <workItem from="1658958438828" duration="17736000" />
-      <workItem from="1659096402809" duration="10784000" />
+      <workItem from="1659096402809" duration="11008000" />
+      <workItem from="1659203942794" duration="1113000" />
+      <workItem from="1659354110116" duration="3271000" />
     </task>
     <task id="LOCAL-00001" summary="Little changes here and there.">
       <created>1659099907221</created>
@@ -106,7 +107,14 @@
       <option name="project" value="LOCAL" />
       <updated>1659100635944</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="Added beginnings of frequency analysis.">
+      <created>1659110479703</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1659110479703</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -137,7 +145,8 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Little changes here and there." />
-    <option name="LAST_COMMIT_MESSAGE" value="Little changes here and there." />
+    <MESSAGE value="Added beginnings of frequency analysis." />
+    <option name="LAST_COMMIT_MESSAGE" value="Added beginnings of frequency analysis." />
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
     <SUITE FILE_PATH="coverage/CTF_QRate$main.coverage" NAME="main Coverage Results" MODIFIED="1658957116289" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
