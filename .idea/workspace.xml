@@ -1,7 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="c12db3a9-44b2-4dd4-acd1-91567e1976b6" name="Changes" comment="It's fookin done!" />
+    <list default="true" id="c12db3a9-44b2-4dd4-acd1-91567e1976b6" name="Changes" comment="It's fookin done!">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/CTF_QRate.ipynb" beforeDir="false" afterPath="$PROJECT_DIR$/CTF_QRate.ipynb" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -89,6 +92,7 @@
       <workItem from="1659969199689" duration="9828000" />
       <workItem from="1659985832593" duration="9515000" />
       <workItem from="1659996155515" duration="1851000" />
+      <workItem from="1659998034710" duration="1408000" />
     </task>
     <task id="LOCAL-00001" summary="Little changes here and there.">
       <created>1659099907221</created>
@@ -153,7 +157,14 @@
       <option name="project" value="LOCAL" />
       <updated>1659997975401</updated>
     </task>
-    <option name="localTasksCounter" value="10" />
+    <task id="LOCAL-00010" summary="It's fookin done!">
+      <created>1659998047152</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1659998047152</updated>
+    </task>
+    <option name="localTasksCounter" value="11" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
