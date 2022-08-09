@@ -1,9 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="c12db3a9-44b2-4dd4-acd1-91567e1976b6" name="Changes" comment="It's fookin done!">
+    <list default="true" id="c12db3a9-44b2-4dd4-acd1-91567e1976b6" name="Changes" comment="Added xor function, fixed conversion functions.">
+      <change beforePath="$PROJECT_DIR$/.idea/CTF_QRate.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/CTF_QRate.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/CTF_QRate.ipynb" beforeDir="false" afterPath="$PROJECT_DIR$/CTF_QRate.ipynb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/materials/t=0110001000100010011000100110011010010110011001101001011010011001100100100010001010010010100110011001001000100010100100101001100101100111011101110110011101100110.bin" beforeDir="false" afterPath="$PROJECT_DIR$/materials/t=0110001000100010011000100110011010010110011001101001011010011001100100100010001010010010100110011001001000100010100100101001100101100111011101110110011101100110.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/materials/vernam.jpeg" beforeDir="false" afterPath="$PROJECT_DIR$/materials/vernam.jpeg" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -54,9 +58,9 @@
       <envs>
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
-      <option name="SDK_HOME" value="" />
+      <option name="SDK_HOME" value="D:\ProgramData\Anaconda3\python.exe" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <option name="IS_MODULE_SDK" value="true" />
+      <option name="IS_MODULE_SDK" value="false" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
@@ -86,13 +90,10 @@
       <workItem from="1659096402809" duration="11008000" />
       <workItem from="1659203942794" duration="1113000" />
       <workItem from="1659354110116" duration="7042000" />
-      <workItem from="1659909809828" duration="843000" />
-      <workItem from="1659949651746" duration="2304000" />
-      <workItem from="1659952172177" duration="2456000" />
-      <workItem from="1659969199689" duration="9828000" />
-      <workItem from="1659985832593" duration="9515000" />
-      <workItem from="1659996155515" duration="1851000" />
-      <workItem from="1659998034710" duration="1408000" />
+      <workItem from="1659368047199" duration="326000" />
+      <workItem from="1659368399168" duration="7371000" />
+      <workItem from="1660037993491" duration="915000" />
+      <workItem from="1660041265952" duration="783000" />
     </task>
     <task id="LOCAL-00001" summary="Little changes here and there.">
       <created>1659099907221</created>
@@ -129,42 +130,7 @@
       <option name="project" value="LOCAL" />
       <updated>1659359917339</updated>
     </task>
-    <task id="LOCAL-00006" summary="Finished all main functions. Checked cyphered text frequencies. Checked the cyphering itself.">
-      <created>1659881290874</created>
-      <option name="number" value="00006" />
-      <option name="presentableId" value="LOCAL-00006" />
-      <option name="project" value="LOCAL" />
-      <updated>1659881290874</updated>
-    </task>
-    <task id="LOCAL-00007" summary="Added quite a lot of text, including comments.">
-      <created>1659908245426</created>
-      <option name="number" value="00007" />
-      <option name="presentableId" value="LOCAL-00007" />
-      <option name="project" value="LOCAL" />
-      <updated>1659908245426</updated>
-    </task>
-    <task id="LOCAL-00008" summary="Finished student's perspective!">
-      <created>1659982769877</created>
-      <option name="number" value="00008" />
-      <option name="presentableId" value="LOCAL-00008" />
-      <option name="project" value="LOCAL" />
-      <updated>1659982769877</updated>
-    </task>
-    <task id="LOCAL-00009" summary="It's fookin done!">
-      <created>1659997975401</created>
-      <option name="number" value="00009" />
-      <option name="presentableId" value="LOCAL-00009" />
-      <option name="project" value="LOCAL" />
-      <updated>1659997975401</updated>
-    </task>
-    <task id="LOCAL-00010" summary="It's fookin done!">
-      <created>1659998047152</created>
-      <option name="number" value="00010" />
-      <option name="presentableId" value="LOCAL-00010" />
-      <option name="project" value="LOCAL" />
-      <updated>1659998047152</updated>
-    </task>
-    <option name="localTasksCounter" value="11" />
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -197,13 +163,9 @@
     <MESSAGE value="Little changes here and there." />
     <MESSAGE value="Added beginnings of frequency analysis." />
     <MESSAGE value="Compared our frequencies to general known frequencies for english language." />
-    <MESSAGE value="Finished all main functions. Checked cyphered text frequencies. Checked the cyphering itself." />
-    <MESSAGE value="Added quite a lot of text, including comments." />
-    <MESSAGE value="Finished student's perspective!" />
-    <MESSAGE value="It's fookin done!" />
-    <option name="LAST_COMMIT_MESSAGE" value="It's fookin done!" />
+    <option name="LAST_COMMIT_MESSAGE" value="Compared our frequencies to general known frequencies for english language." />
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
-    <SUITE FILE_PATH="coverage/CTF_QRate$main.coverage" NAME="main Coverage Results" MODIFIED="1659870922722" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/CTF_QRate$main.coverage" NAME="main Coverage Results" MODIFIED="1659016157064" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
   </component>
 </project>
