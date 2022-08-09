@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="c12db3a9-44b2-4dd4-acd1-91567e1976b6" name="Changes" comment="Changed xor function so it is actually xor, not equals. Fixed text here and there.">
+    <list default="true" id="c12db3a9-44b2-4dd4-acd1-91567e1976b6" name="Changes" comment="El approved!">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/CTF_QRate.ipynb" beforeDir="false" afterPath="$PROJECT_DIR$/CTF_QRate.ipynb" afterDir="false" />
     </list>
@@ -89,7 +89,7 @@
       <workItem from="1659368047199" duration="326000" />
       <workItem from="1659368399168" duration="7371000" />
       <workItem from="1660037993491" duration="915000" />
-      <workItem from="1660041265952" duration="4327000" />
+      <workItem from="1660041265952" duration="5662000" />
     </task>
     <task id="LOCAL-00001" summary="Little changes here and there.">
       <created>1659099907221</created>
@@ -133,7 +133,14 @@
       <option name="project" value="LOCAL" />
       <updated>1660042130257</updated>
     </task>
-    <option name="localTasksCounter" value="7" />
+    <task id="LOCAL-00007" summary="El approved!">
+      <created>1660046107220</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1660046107220</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -167,7 +174,8 @@
     <MESSAGE value="Added beginnings of frequency analysis." />
     <MESSAGE value="Compared our frequencies to general known frequencies for english language." />
     <MESSAGE value="Changed xor function so it is actually xor, not equals. Fixed text here and there." />
-    <option name="LAST_COMMIT_MESSAGE" value="Changed xor function so it is actually xor, not equals. Fixed text here and there." />
+    <MESSAGE value="El approved!" />
+    <option name="LAST_COMMIT_MESSAGE" value="El approved!" />
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
     <SUITE FILE_PATH="coverage/CTF_QRate$main.coverage" NAME="main Coverage Results" MODIFIED="1659016157064" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
